@@ -2,7 +2,6 @@ import { MeshTransmissionMaterial, useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 
 import { useRef } from "react";
-import { motion } from "framer-motion";
 export default function Model(props) {
   const { nodes, materials } = useGLTF("/medias/torus1.glb");
   const { viewport } = useThree();

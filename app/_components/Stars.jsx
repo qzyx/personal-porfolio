@@ -1,6 +1,5 @@
-import { Canvas, useFrame } from "@react-three/fiber";
-import { useRef, useMemo, useEffect } from "react";
-import * as THREE from "three";
+import { useFrame } from "@react-three/fiber";
+import { useMemo, useRef } from "react";
 
 export default function MovingStars({ count = 500 }) {
   const meshRef = useRef();

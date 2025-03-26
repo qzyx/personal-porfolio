@@ -1,11 +1,10 @@
 "use client";
+import { Environment, useProgress } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import Model from "./Model";
-import { Environment, Html, useProgress } from "@react-three/drei";
-import MovingStars from "./Stars";
-import { Suspense, useState, useEffect } from "react";
-import PageLoader from "./PageLoader";
 import { AnimatePresence, motion } from "framer-motion";
+import { Suspense, useEffect, useState } from "react";
+import Model from "./Model";
+import MovingStars from "./Stars";
 
 export default function Scene() {
   const { progress, loaded } = useProgress();
