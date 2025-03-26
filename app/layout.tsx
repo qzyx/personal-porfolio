@@ -24,8 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Artifika&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-white min-h-screen bg-[#1b1b1b]`}
       >
         {children}
       </body>
