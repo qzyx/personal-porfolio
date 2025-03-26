@@ -27,7 +27,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/ThreeJSStar.jsx"
+    "src/components/ThreeJSStar.jsx",
+    "app/_components/Scene.jsx",
+    "app/_components/Model.jsx"
   ],
   "exclude": ["node_modules"]
 }
